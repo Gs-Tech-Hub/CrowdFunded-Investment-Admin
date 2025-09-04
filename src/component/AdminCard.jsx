@@ -8,7 +8,7 @@ const AdminCard = ({ adminTableBody, deleteCampaign, saveCampaign }) => {
     const [adminData, setadminData] = useState(adminTableBody)
     return (
         <div className='adminCard w-[95vw]  mx-[auto] overflow-x-auto'>
-            <table className='m-[auto] max-[755px]:w-[50rem]  mx-[auto] max-[755px]:overflow-x-auto'>
+            <table className='m-[auto] max-[755px]:w-[55rem]  mx-[auto] max-[755px]:overflow-x-auto'>
                 <thead>
                     {
                         adminTableHeader?.map(item => {

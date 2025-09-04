@@ -37,7 +37,7 @@ const Admin = () => {
             {loading ? <Loader />
                 :
                 <div className='mt-[2.5rem]'>
-                    {loading2 && <div className='loaderWrapper'><div className='loader'><Loader /></div></div>}
+                    {loading2 && <div className='loaderWrapper'><div className='loader'><Loader color='white' /></div></div>}
                     <div className=' flex items-center mb-[2.8rem] justify-center'>
                         <div className=' flex items-center border-[1px] rounded-[2rem]  border-[grey] w-[24rem] max-[540px]:w-[80%] max-[382px]:w-[85%]'>
                             <input type="search" placeholder='Search Campaign Name' className='bg-[none] outline-none pl-[0.7rem] py-[0.4rem] w-[85%]  m-[auto] ' />

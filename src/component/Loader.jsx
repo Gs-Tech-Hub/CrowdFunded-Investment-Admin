@@ -3,12 +3,12 @@ import { HashLoader } from "react-spinners";
 const styles = {
     margin: "9rem auto",
 };
-function Loader() {
+function Loader({ color }) {
 
     return (
         <div className="sweet-loading">
             <HashLoader
-                color='#79ddf9'
+                color={color ? color : '#79ddf9'}
                 cssOverride={styles}
                 size={50}
                 aria-label="Loading Spinner"
